@@ -269,7 +269,7 @@ app.get('/my-cards', auth, async (req, res) => {
         res.status(500).json({ message: "Server error!" })
     }
 })
-
+// teszt
 
 // SZERVER INDÍTÁSA
 app.listen(PORT, HOST, () => {
